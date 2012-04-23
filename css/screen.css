@@ -1,0 +1,117 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+#container{
+	margin: 100px auto 0 auto;
+	width: 1020px;
+	z-index: 1000;
+}
+
+#map_container{
+	background-color: #FFF;
+	padding: 10px;
+}
+
+#map{
+	height: 600px;
+	width: 1000px;
+	border: 1px solid #ddd;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+#logo{
+	background-color: #FFF;
+	width: 300px;
+	height: 100px;
+	float:left;
+	vertical-align: middle;
+}
+
+#logo img{
+	margin: 2px 0 0 5px;
+	float: left;
+	width: 55px;
+}
+
+#logo h1{
+	float:left;
+	font-weight:normal;
+	margin-top: 15px;
+	font-size: 55px;
+}
+
+#pollen_navigation{
+	background-image: url('../img/bg_white.png');
+	height: 62px;
+	width: 720px;
+	margin-left: 300px;
+	padding-top: 38px;
+}
+
+.ui-slider-horizontal{
+	width: 600px;
+	margin-left: 55px;
+}
+
+#logo p.count{
+	color: #333;
+	display:none;
+	margin: 32px 0 0 5px;
+	width: 285px;
+}
+
+#logo p.count > strong{
+	float:right;
+	font-size: 55px;
+	margin-top: -35px;
+	font-weight:normal;
+}
+
+
+#logo p.low strong{color: #61AC7C;}
+#logo p.medium strong{color: #EFDD47;}
+#logo p.high strong{color: #F1612E;}
+#logo p.extreme strong{color: #D31A1A;}
+
+
+.leaflet-popup{
+	width: 338px !important;
+}
+
+.leaflet-container{
+	color: #333;
+}
+
+.leaflet-container img{
+	max-width: 300px !important;
+	display:block !important;
+}
+
+.leaflet-container p.content{
+	border-bottom: 1px solid #EEE;
+	margin: 10px 0 12px 0;
+	padding: 0 0 5px 0;
+}
+
+.leaflet-container p.name,
+.leaflet-container p.time{
+	margin: 0;
+}
+
+.leaflet-container p.name{
+	font-weight: bold;
+}
+
+.leaflet-container img.profile{ 
+	float:left;
+	margin-right: 10px;
+	width: 30px;
+}
+
+.leaflet-popup-close-button{
+	display:none !important;
+}

@@ -1,0 +1,74 @@
+html{
+	margin:0;
+	padding: 0;
+}
+body{
+	margin:0;
+	padding: 0;
+}
+
+
+img#title{
+	margin: 10px 0 0 8px;
+	width: 160px;
+	height: 60px;
+	display: inline-block;
+	float:left;
+}
+
+#nav{
+	z-index: 10000000;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background-image: url(../img/bg.png);
+	border-top: 1px solid #aaa;
+	font-family: arial, helvetica, sans-serif;
+}
+
+#nav #scrubber{
+	display: block;
+	margin: 30px auto 0 auto;
+	width: 500px;
+}
+
+#nav table{
+	float:right;
+	display: inline-block;
+	margin-left: 80px;
+	font-size: 13px !important;
+	color: #555 !important;
+	text-shadow: 1px 1px 1px #ddd;
+	margin-top: 15px;
+}
+
+#nav table td{
+	width: 120px;
+}
+
+#nav input, 
+#nav label{
+	cursor:pointer;
+}
+
+.leaflet-container .leaflet-control-attribution {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.leaflet-right .leaflet-control {
+	font-size: 13px !important;
+	color: #555 !important;
+	text-shadow: 1px 1px 1px #ddd;
+	margin-right: 10px;
+	border: none;
+	background: transparent;
+	background-image: url(../img/bg.png);
+	box-shadow: none;
+}
+
+.leaflet-control-zoom {
+	background: rgba(0, 0, 0, 0.2);
+}
